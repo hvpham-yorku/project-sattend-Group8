@@ -8,9 +8,8 @@ Sattend is an attendance system to simplify the process of recording attendance 
 TBD - Provide a list of required tools/programs to run your project, and a procedure for how to build and run your project.
 
 ## Contributing
-TBD
-describe the process for contributing to your project.
-○ Do you use git flow?
-○ What do you name your branches?
-○ Do you use GitHub issues or another ticketing website?
-○ Do you use pull requests?
+TBD - describe the process for contributing to your project.
+- Do you use git flow?
+- What do you name your branches?
+- Do you use GitHub issues or another ticketing website?
+- Do you use pull requests?
