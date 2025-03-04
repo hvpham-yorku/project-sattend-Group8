@@ -34,8 +34,8 @@
 
 17. As a teaching assistant, I want to add attendance lists at a recurring time outside regular hours, so I can track who attended tutorials.
 
-18.
+18. As a student, I want to view my attendance records for each of my classes, so I can track my participation and ensure the records are accurate.
 
-19.
+19. As an office administrator, I want to integrate attendance data with other systems like the school LMS and gradebook, so records stay consistent.
 
-20.
+20. As a parent of a high school student, I want to view my child's attendance records so I can track their academic behaviour.
