@@ -40,3 +40,40 @@ As a teaching assistant, I want to log into the same system used by the instruct
 - Li Sha: 10 hours
 - Mingdi: 10 hours?
 - Total hours available: 30 hours?
+
+# Standups
+## Mar. 16, 2025 - Sprint 1 Standup 1
+1. What did you work on since the last standup?
+2. What do you commit to next?
+3. When do you think you'll be done?
+4. Do you have any blockers?
+
+### Jada
+
+### Li Sha
+
+### Mingdi
+
+## Mar. 17, 2025 - Sprint 1 Standup 2
+1. What did you work on since the last standup?
+2. What do you commit to next?
+3. When do you think you'll be done?
+4. Do you have any blockers?
+
+### Jada
+
+### Li Sha
+
+### Mingdi
+
+## Mar. 18, 2025 - Sprint 1 Standup 3
+1. What did you work on since the last standup?
+2. What do you commit to next?
+3. When do you think you'll be done?
+4. Do you have any blockers?
+
+### Jada
+
+### Li Sha
+
+### Mingdi
