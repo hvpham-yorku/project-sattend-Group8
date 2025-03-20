@@ -10,7 +10,7 @@ data class Movie(val title: String, val year: Int, val cast: List<String>)
 fun main() {
 
     // Replace the placeholder with your MongoDB deployment's connection string
-    val uri =
+    val uri = "mongodb+srv://jchang19:qctPf4V3S5vAr25l@sattend.k2qqk.mongodb.net/?retryWrites=true&w=majority&appName=sattend"
 
     val mongoClient = MongoClient.create(uri)
     val database = mongoClient.getDatabase("sample_mflix")
