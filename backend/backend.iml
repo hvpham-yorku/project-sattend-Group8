@@ -4,5 +4,6 @@
     <exclude-output />
     <orderEntry type="jdk" jdkName="JavaSE-16" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="mongodb.driver.kotlin.coroutine" level="project" />
   </component>
 </module>
