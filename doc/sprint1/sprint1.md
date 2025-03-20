@@ -2,12 +2,15 @@
 - Date: Mar. 15, 2025
 - Time: 15:45 - 16:45
 - Location: Discord
+
 ## Participants
 - Jada Chang 218016790  
 - Li Sha Su 213581772
-*Mingdi Yi did not attend.*
+- *Mingdi Yi did not attend.*
+
 ## Sprint Goal
 Build the basic attendance marking functionality, attendance history viewing, and user login system.
+
 ## User Stories to be completed
 ### Story 1:
 As an instructor, I want to be able to easily mark down if a student is present or absent, so I have a list of who is in class on a given day.
@@ -49,7 +52,14 @@ As a teaching assistant, I want to log into the same system used by the instruct
 4. Do you have any blockers?
 
 ### Jada
-
+1. What did you work on since the last standup? 
+   1. Was not able to make progress due to other classwork and personal events.
+2. What do you commit to next? 
+   1. Working on my assigned user story.
+3. When do you think you'll be done?
+   1. In time for our final meeting before submission.
+4. Do you have any blockers?
+   1. No.
 ### Li Sha
 
 ### Mingdi
@@ -61,6 +71,14 @@ As a teaching assistant, I want to log into the same system used by the instruct
 4. Do you have any blockers?
 
 ### Jada
+1. What did you work on since the last standup?
+    1. Was not able to make progress due to other classwork and personal events.
+2. What do you commit to next?
+    1. Working on my assigned user story.
+3. When do you think you'll be done?
+    1. In time for our final meeting before submission.
+4. Do you have any blockers?
+    1. No.
 
 ### Li Sha
 
@@ -73,6 +91,14 @@ As a teaching assistant, I want to log into the same system used by the instruct
 4. Do you have any blockers?
 
 ### Jada
+1. What did you work on since the last standup?
+    1. Was not able to make progress due to other classwork and personal events.
+2. What do you commit to next?
+    1. Working on my assigned user story.
+3. When do you think you'll be done?
+    1. In time for our final meeting before submission.
+4. Do you have any blockers?
+    1. No.
 
 ### Li Sha
 
