@@ -41,6 +41,7 @@ function App() {
                 </tr>
                 </tbody>
             </table>
+            <button>Submit</button>
         </div>
         /* Starter code
       <div className="App">
