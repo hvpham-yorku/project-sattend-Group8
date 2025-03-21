@@ -1,68 +1,102 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root{
+  font-family: Arial, Helvetica, sans-serif;
+  color:#4d4c4c
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 700;
 }
 
 body {
-  margin: 0;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+form {
+  width: 500px; 
+  margin: 20px auto; 
+  margin-bottom: 15px;
+  
+}
+
+
+label {
+  display: inline-block;
+  min-width: 140px;
+  text-align: left;
+  font-weight: 700;
+}
+
+.form-group label {
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  margin-bottom: 5px;
+  font-size: 16px;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.radio-group{
+  width: 18px; /* Decreased size */
+  height: 18px; /* Decreased size */
+  border-radius: 0; /* Square shape */
+  margin-right: 10px; /* Space between radio buttons */
+  border: 2px solid #007bff; /* Border color */
+  transition: all 0.3s ease; /* Smooth transition for interaction */
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+input {
+  width: 300px;
+  height: 40px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #4d4c4c;
+  box-sizing: border-box;
+  border-color: #4d4c4c;
+  border-radius: 10px;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+input:focus,
+textarea:focus {
+  outline-style: solid;
+  outline-color: #000;
+  
 }
+
+Button{
+  background-color: rgb(0,123,255);
+  color: white;
+  padding:15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 2px;
+  border-radius: 12px;
+  font-weight: 700;
+  border-color: #4d4c4c;
+  width: 300px
+}
+
+
+li{
+  background-color: white; /* Set a background color for list items */
+  padding: 12px; /* Add padding inside the box */
+  margin: 5px 0; /* Space between list items */
+  border: 2px solid #c0bfbf; /* Border around each list item */
+  border-radius: 12px; /* Round the corners of the box */
+  width: 400px;
+  margin-left: auto; /* Auto margin for horizontal centering */
+  margin-right: auto; /* Auto margin for horizontal centering */
+
+  
+}
+ul{
+  list-style-type: none;
+  padding: 0; 
+  margin: 0; 
+  font-size: 16px; 
+  line-height: 1.5; 
+  font-weight: 700;
+}
+
+
