@@ -5,7 +5,7 @@
 ## Participants
 - Jada Chang 218016790  
 - Li Sha Su 213581772
-*Mingdi Yi did not attend.*
+- Mingdi Yi 218296020（get message in discord）
 ## Sprint Goal
 Build the basic attendance marking functionality, attendance history viewing, and user login system.
 ## User Stories to be completed
@@ -38,8 +38,8 @@ As a teaching assistant, I want to log into the same system used by the instruct
 ## Team Capacity
 - Jada: 10 hours
 - Li Sha: 10 hours
-- Mingdi: 10 hours?
-- Total hours available: 30 hours?
+- Mingdi: 10 hours
+- Total hours available: 30 hours
 
 # Standups
 ## Mar. 16, 2025 - Sprint 1 Standup 1
