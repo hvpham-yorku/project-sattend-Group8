@@ -84,7 +84,7 @@ const HistoricalAttendance = () => {
 
       {/* Attendance Table */}
       <h2>Attendance for {selectedStudent.name}</h2>
-      <table border="1">
+      <table className="t1" border="1">
         <thead>
           <tr>
             <th>Date</th>

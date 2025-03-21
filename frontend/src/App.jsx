@@ -4,32 +4,22 @@ import Statistics from "./components/Statistics";
 import ClassManagement from "./components/ClassManagement";
 import StudentList from "./components/StudentList";
 import MarkAttendance from "./components/MarkAttendance";
-import HistoricalAttendance from "./HistoricalAttendance";
+import HistoricalAttendance from "./components/HistoricalAttendance";
+import "./index.css";
+import { useState } from "react";
+import Navigation from "./components/Navigation";
 
 const App = () => {
+  const [view, setView] = useState("");
+
   return (
-    <div>
-      <Login />
-      <br />
-      <br />
-      <br />
-      <Attendance />
-      <br />
-      <br />
-      <br />
-      <Statistics />
-      <br />
-      <br />
-      <br />
-      <ClassManagement />
-      <br />
-      <br />
+    <div className="full-container">
+      <Navigation setView={setView} />
 
-      <StudentList />
-      <MarkAttendance />
-
-      <br />
-      <HistoricalAttendance />
+      {view === "login" && <Login />}
+      {view === "current-student" && <StudentList />}
+      {view === "mark-attendance" && <MarkAttendance />}
+      {view === "hsitorical-attendance" && <HistoricalAttendance />}
     </div>
   );
 };

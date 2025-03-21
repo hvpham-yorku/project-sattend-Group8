@@ -37,13 +37,12 @@ const Login = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    //if correct credential entered, then set user=something
 
-    console.log(
-      await checkUser({
-        email: "ana@test.com",
-        password: "password",
-      })
-    );
+    const userFound = await checkUser({
+      email: "ana@test.com",
+      password: "password",
+    });
 
     // succesful submission
     setEmail("");

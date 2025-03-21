@@ -3,10 +3,11 @@ import { useState } from "react";
 const MarkAttendance = () => {
   const today = new Date();
   const allStudents = [
-    { id: 1, name: "Ana sfds " },
-    { id: 2, name: "Bobf  dds" },
-    { id: 3, name: "Csfsf  fsdfs" },
-    { id: 4, name: "Dsfdsfs fsdfs" },
+    { id: 1, name: "Ana" },
+    { id: 2, name: "Bob" },
+    { id: 3, name: "Charlie" },
+    { id: 4, name: "David" },
+    { id: 5, name: "Emma" },
   ];
 
   // Store attendance per student

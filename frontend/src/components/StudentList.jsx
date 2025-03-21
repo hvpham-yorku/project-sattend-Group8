@@ -5,6 +5,8 @@ const StudentList = () => {
   const [currentStudents, setCurrentStudents] = useState([
     { id: 1, name: "Ana" },
     { id: 2, name: "Bob" },
+    { id: 3, name: "Charlie" },
+    { id: 4, name: "David" },
   ]);
 
   // Static list of all students
