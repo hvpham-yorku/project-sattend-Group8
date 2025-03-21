@@ -54,8 +54,8 @@ As a teaching assistant, I want to log into the same system used by the instruct
 
 ### Mingdi
 frontend/src/Login.tsx
-backend
-tomorrow
+2 backend
+3 tomorrow
 ## Mar. 17, 2025 - Sprint 1 Standup 2
 1. What did you work on since the last standup?
 2. What do you commit to next?
