@@ -41,8 +41,8 @@ As a teaching assistant, I want to log into the same system used by the instruct
 ## Team Capacity
 - Jada: 10 hours
 - Li Sha: 10 hours
-- Mingdi: 10 hours?
-- Total hours available: 30 hours?
+- Mingdi: 10 hours
+- Total hours available: 30 hours
 
 # Standups
 ## Mar. 16, 2025 - Sprint 1 Standup 1
@@ -63,7 +63,9 @@ As a teaching assistant, I want to log into the same system used by the instruct
 ### Li Sha
 
 ### Mingdi
-
+1 frontend/src/Login.tsx
+2 backend
+3 tomorrow
 ## Mar. 17, 2025 - Sprint 1 Standup 2
 1. What did you work on since the last standup?
 2. What do you commit to next?
@@ -83,7 +85,15 @@ As a teaching assistant, I want to log into the same system used by the instruct
 ### Li Sha
 
 ### Mingdi
-
+1
+backend/src/main/kotlin/AuthRoutes.kt
+backend/src/main/kotlin/UserDatabase.kt
+backend/src/main/kotlin/User.kt
+backend/src/main/kotlin/AttendanceRecord.kt
+2
+test
+3
+tomorrow
 ## Mar. 18, 2025 - Sprint 1 Standup 3
 1. What did you work on since the last standup?
 2. What do you commit to next?
@@ -103,3 +113,4 @@ As a teaching assistant, I want to log into the same system used by the instruct
 ### Li Sha
 
 ### Mingdi
+backend/src/test/kotlin/AuthTests.kt
