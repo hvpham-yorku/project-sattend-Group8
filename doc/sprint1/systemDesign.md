@@ -2,7 +2,7 @@
 
 ## Attendance Marking Feature
 
-### Class name: `AttendanceRecord`
+#### Class name: `AttendanceRecord`
 - Parent Class: None
 - Sub Classes: None
 
@@ -16,7 +16,7 @@ Collaborators:
 - `StudentID` from `Student`
 - `status` will be entered into the `attendanceList` for a `Class`
 
-### Class name: `Class`
+#### Class name: `Class`
 - Parent Class: None
 - Sub Classes: None
 
@@ -30,7 +30,7 @@ Collaborators:
 - `Student` for the student list
 - `AttendanceRecord` for each attendance record entry
 
-### Class name: `Student`
+#### Class name: `Student`
 - Parent Class: None
 - Sub Classes: None
 
@@ -41,3 +41,8 @@ Responsibilities:
 
 Collaborators:
 - `Class` for the class enrollment list
+
+### Architecture
+- Instructor users interact with a front end UI where a list of students enrolled in a particular class is displayed
+- They can click on buttons which set the attendance record as present or absent for a particular student
+- On the backend, a new `AttendanceRecord` is created and added to the attendance records for the class
