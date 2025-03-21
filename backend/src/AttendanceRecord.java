@@ -14,4 +14,13 @@ public class AttendanceRecord {
         this.date = date;
         this.status = status;
     }
+
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "AttendanceRecord{" +
+                "studentID='" + studentID + '\'' +
+                ", date=" + date +
+                ", status=" + status +
+                '}';
+    }
 }
