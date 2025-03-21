@@ -67,9 +67,9 @@ As a teaching assistant, I want to log into the same system used by the instruct
 4. No
 
 ### Mingdi
-1 frontend/src/Login.tsx
-2 backend
-3 tomorrow
+1 frontend/src/Login.tsx  
+2 backend  
+3 tomorrow  
 ## Mar. 17, 2025 - Sprint 1 Standup 2
 1. What did you work on since the last standup?
 2. What do you commit to next?
@@ -93,15 +93,15 @@ As a teaching assistant, I want to log into the same system used by the instruct
 4. No
 
 ### Mingdi
-1
-backend/src/main/kotlin/AuthRoutes.kt
-backend/src/main/kotlin/UserDatabase.kt
-backend/src/main/kotlin/User.kt
-backend/src/main/kotlin/AttendanceRecord.kt
-2
-test
-3
-tomorrow
+1  
+backend/src/main/kotlin/AuthRoutes.kt  
+backend/src/main/kotlin/UserDatabase.kt  
+backend/src/main/kotlin/User.kt  
+backend/src/main/kotlin/AttendanceRecord.kt  
+2  
+test  
+3  
+tomorrow  
 ## Mar. 18, 2025 - Sprint 1 Standup 3
 1. What did you work on since the last standup?
 2. What do you commit to next?
