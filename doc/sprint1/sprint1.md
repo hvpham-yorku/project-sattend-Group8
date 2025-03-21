@@ -61,6 +61,14 @@ As a teaching assistant, I want to log into the same system used by the instruct
 4. Do you have any blockers?
    1. No.
 ### Li Sha
+1. What did you work on since the last standup?
+   frontend -user Login, user stories on Trello (prioritization and acceptance criteria) 
+2. What do you commit to next?
+   frontend - Student List
+3. When do you think you'll be done?
+   Before final submission
+4. Do you have any blockers?
+   No
 
 ### Mingdi
 1 frontend/src/Login.tsx
@@ -83,6 +91,14 @@ As a teaching assistant, I want to log into the same system used by the instruct
     1. No.
 
 ### Li Sha
+1. What did you work on since the last standup?
+   Student List, Mark Attendance
+2. What do you commit to next?
+   Historical Attendance
+3. When do you think you'll be done?
+   Before final submission
+4. Do you have any blockers?
+   No
 
 ### Mingdi
 1
@@ -111,6 +127,12 @@ tomorrow
     1. No.
 
 ### Li Sha
+1. What did you work on since the last standup?
+   Historical Attendance, finishing all other documents for sprint1
+3. When do you think you'll be done?
+   Before final submission
+4. Do you have any blockers?
+   No
 
 ### Mingdi
 backend/src/test/kotlin/AuthTests.kt
