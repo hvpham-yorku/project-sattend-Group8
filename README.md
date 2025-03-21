@@ -6,6 +6,7 @@ Sattend is an attendance system to simplify the process of recording attendance 
 
 ## Installation
 TBD - Provide a list of required tools/programs to run your project, and a procedure for how to build and run your project.
+See backend/src/README.md
 
 ## Contributing
 TBD - describe the process for contributing to your project.

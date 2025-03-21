@@ -1,35 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Login from "./components/Login";
+import Attendance from "./components/Attendance";
+import Statistics from "./components/Statistics";
+import ClassManagement from "./components/ClassManagement";
+import StudentList from "./components/StudentList";
+import MarkAttendance from "./components/MarkAttendance";
+import HistoricalAttendance from "./components/HistoricalAttendance";
+import "./index.css";
+import { useState } from "react";
+import Navigation from "./components/Navigation";
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
+  const [view, setView] = useState("");
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <div className="full-container">
+      <Navigation setView={setView} />
 
-export default App
+      {view === "login" && <Login />}
+      {view === "current-student" && <StudentList />}
+      {view === "mark-attendance" && <MarkAttendance />}
+      {view === "hsitorical-attendance" && <HistoricalAttendance />}
+    </div>
+  );
+};
+export default App;
