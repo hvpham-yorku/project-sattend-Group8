@@ -40,3 +40,4 @@ New user story is not needed, the same features still need to be implemented for
 - **Jada**: Best experience was realizing I remember how to use react and being able to make the prototype for the front end quickly. Worst experience was spending 8 hours trying to figure out the database only for it to not work, and ending up just creating a prototype with basic Java classes instead.
 - **Lisha**: Best experience was remembering and learning how to use react. The worst experience was taking more time than predicted to finish each part.
 - **Mingdi**:
+Best experience was learning how to use react.The worst experience was too hard to learn kotlin from 0 basis.
