@@ -6,7 +6,7 @@
 ## Participants
 - Jada Chang 218016790  
 - Li Sha Su 213581772
-- *Mingdi Yi did not attend.*
+- *Mingdi Yi did not attend. Checked notes on Discord.*
 
 ## Sprint Goal
 Build the basic attendance marking functionality, attendance history viewing, and user login system.
