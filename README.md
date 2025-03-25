@@ -5,8 +5,9 @@ Group project for EECS 3311 Section N W25
 Sattend is an attendance system to simplify the process of recording attendance in high school and post-secondary educational environments. It provides meaningful insights on attendance records to faculty, staff, studemts, and parents.
 
 ## Installation
-TBD - Provide a list of required tools/programs to run your project, and a procedure for how to build and run your project.
-See backend/src/README.md
+- Install Kotlin using `sdk install kotlin`
+- Install MongoDB following https://www.mongodb.com/docs/manual/administration/install-community/.
+- Install React using `npm install react`
 
 ## Contributing
 TBD - describe the process for contributing to your project.
