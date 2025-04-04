@@ -57,7 +57,10 @@ As a teaching assistant, I want to log into the same system used by the instruct
 ### Lisha
 
 ### Mingdi
-
+1 network-diagram  
+2 keep do network-diagram  
+3 2day later  
+4 no  
 ## Mar. 28, 2025 - Sprint 2 Standup 2
 1. What did you work on since the last standup?
 2. What do you commit to next?
@@ -69,7 +72,10 @@ As a teaching assistant, I want to log into the same system used by the instruct
 ### Lisha
 
 ### Mingdi
-
+1 network-diagram  
+2 keep do network-diagram  
+3 1day later  
+4 no
 ## Mar. 30, 2025 - Sprint 2 Standup 3
 1. What did you work on since the last standup?
 2. What do you commit to next?
@@ -81,7 +87,10 @@ As a teaching assistant, I want to log into the same system used by the instruct
 ### Lisha
 
 ### Mingdi
-
+1 network-diagram  
+2 add new function in main code  
+3 1day  
+4 no
 ## Apr. 1, 2025 - Sprint 2 Standup 4
 1. What did you work on since the last standup?
 2. What do you commit to next?
@@ -93,3 +102,7 @@ As a teaching assistant, I want to log into the same system used by the instruct
 ### Lisha
 
 ### Mingdi
+1 network-diagram  
+2 finished my work  
+3 no  
+4 no
