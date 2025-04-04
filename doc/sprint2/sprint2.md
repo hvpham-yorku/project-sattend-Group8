@@ -1,4 +1,4 @@
-# Sprint 1 Planning Meeting
+# Sprint 2 Planning Meeting
 - Date: Mar. 14, 2025
 - Time: 22:00 - 22:45
 - Location: Discord
