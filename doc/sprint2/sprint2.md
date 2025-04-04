@@ -55,6 +55,11 @@ As a teaching assistant, I want to log into the same system used by the instruct
 ### Jada
 
 ### Lisha
+1. Software Architecture Diagram
+2. Historical data for student
+3. 2 days
+4. backend
+   
 
 ### Mingdi
 1 network-diagram  
@@ -70,6 +75,10 @@ As a teaching assistant, I want to log into the same system used by the instruct
 ### Jada
 
 ### Lisha
+1. Historical data for student
+2. Historical data for student
+3. 2 days
+4. backend
 
 ### Mingdi
 1 network-diagram  
@@ -85,7 +94,11 @@ As a teaching assistant, I want to log into the same system used by the instruct
 ### Jada
 
 ### Lisha
-
+1. Historical data for student
+2. Historical data for student
+3. 2 days
+4. backend
+   
 ### Mingdi
 1 network-diagram  
 2 add new function in main code  
@@ -100,6 +113,10 @@ As a teaching assistant, I want to log into the same system used by the instruct
 ### Jada
 
 ### Lisha
+1. Historical data for student
+2. -
+3. no
+4. backend
 
 ### Mingdi
 1 network-diagram  
