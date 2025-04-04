@@ -1,7 +1,73 @@
 import React, { useState } from 'react';
-import './Login.css';
 
-function Login({ onLogin }) {
+const styles = {
+  loginContainer: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '100vh',
+    backgroundColor: '#f5f5f5'
+  },
+  loginForm: {
+    backgroundColor: 'white',
+    padding: '2rem',
+    borderRadius: '5px',
+    boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
+    width: '100%',
+    maxWidth: '400px'
+  },
+  header: {
+    textAlign: 'center',
+    marginBottom: '1.5rem',
+    color: '#333'
+  },
+  formGroup: {
+    marginBottom: '1rem'
+  },
+  label: {
+    display: 'block',
+    marginBottom: '0.5rem',
+    fontWeight: '500'
+  },
+  input: {
+    width: '100%',
+    padding: '0.75rem',
+    border: '1px solid #ddd',
+    borderRadius: '4px',
+    fontSize: '1rem'
+  },
+  button: {
+    width: '100%',
+    padding: '0.75rem',
+    backgroundColor: '#4c9aff',
+    color: 'white',
+    border: 'none',
+    borderRadius: '4px',
+    fontSize: '1rem',
+    cursor: 'pointer',
+    transition: 'background-color 0.3s'
+  },
+  buttonDisabled: {
+    backgroundColor: '#cccccc',
+    cursor: 'not-allowed'
+  },
+  errorMessage: {
+    color: '#d32f2f',
+    marginBottom: '1rem',
+    textAlign: 'center',
+    fontSize: '0.875rem'
+  },
+  link: {
+    display: 'block',
+    textAlign: 'center',
+    marginTop: '1rem',
+    color: '#4c9aff',
+    textDecoration: 'none',
+    cursor: 'pointer'
+  }
+};
+
+function Login({ onLogin, onSwitchToRegister }) {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -29,7 +95,7 @@ function Login({ onLogin }) {
 
       // 存储用户信息和令牌到sessionStorage
       sessionStorage.setItem('user', JSON.stringify(data));
-
+      
       // 调用登录回调函数
       onLogin(data);
     } catch (err) {
@@ -40,14 +106,15 @@ function Login({ onLogin }) {
   };
 
   return (
-    <div className="login-container">
-      <div className="login-form">
-        <h2>Login to SAttend</h2>
-        {error && <div className="error-message">{error}</div>}
+    <div style={styles.loginContainer}>
+      <div style={styles.loginForm}>
+        <h2 style={styles.header}>Login to SAttend</h2>
+        {error && <div style={styles.errorMessage}>{error}</div>}
         <form onSubmit={handleSubmit}>
-          <div className="form-group">
-            <label htmlFor="username">Username</label>
+          <div style={styles.formGroup}>
+            <label style={styles.label} htmlFor="username">Username</label>
             <input
+              style={styles.input}
               type="text"
               id="username"
               value={username}
@@ -55,9 +122,10 @@ function Login({ onLogin }) {
               required
             />
           </div>
-          <div className="form-group">
-            <label htmlFor="password">Password</label>
+          <div style={styles.formGroup}>
+            <label style={styles.label} htmlFor="password">Password</label>
             <input
+              style={styles.input}
               type="password"
               id="password"
               value={password}
@@ -65,9 +133,23 @@ function Login({ onLogin }) {
               required
             />
           </div>
-          <button type="submit" disabled={isLoading}>
+          <button 
+            style={{
+              ...styles.button,
+              ...(isLoading ? styles.buttonDisabled : {})
+            }} 
+            type="submit" 
+            disabled={isLoading}
+          >
             {isLoading ? 'Logging in...' : 'Login'}
           </button>
+          
+          <a 
+            style={styles.link} 
+            onClick={onSwitchToRegister}
+          >
+            Need an account? Register
+          </a>
         </form>
       </div>
     </div>

@@ -168,7 +168,33 @@ public class UserController {
             return "{\"error\": \"发生意外错误\"}";
         }
     }
-
+private String registerUser(Request request, Response response) {
+    try {
+        Map<String, Object> requestBody = objectMapper.readValue(request.body(), Map.class);
+        
+        String username = (String) requestBody.get("username");
+        String password = (String) requestBody.get("password");
+        String firstName = (String) requestBody.get("firstName");
+        String lastName = (String) requestBody.get("lastName");
+        String email = (String) requestBody.get("email");
+        String roleStr = (String) requestBody.get("role");
+        
+        User.UserRole role = User.UserRole.valueOf(roleStr.toUpperCase());
+        
+        User user = authService.createUser(username, password, firstName, lastName, email, role);
+        
+        response.status(201); // 201 Created
+        return objectMapper.writeValueAsString(toUserResponse(user));
+        
+    } catch (IllegalArgumentException e) {
+        response.status(400); // 400 Bad Request
+        return createErrorResponse(e.getMessage());
+        
+    } catch (Exception e) {
+        response.status(500); // 500 Internal Server Error
+        return createErrorResponse("An error occurred while registering the user");
+    }
+}
     private String createSuccessResponse(String message) {
         Map<String, Object> successResponse = new HashMap<>();
         successResponse.put("message", message);
